@@ -57,8 +57,14 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
+    #default
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\d 👉 \[\033[00m\]\[\033[01;34m\]\w\[\033[00m\]\$ '
+    
+    #with time and emoji
+    #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\d 👉 \[\033[00m\]\[\033[01;34m\]\w\[\033[00m\]\$ '
+    
+    #with git branch name
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\d \[\033[00m\]\[\033[01;34m\]\w\[\033[00m\]\[\033[01;31m\] $(__git_ps1 "(%s) ")\[\033[00m\]👉 '
 
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
