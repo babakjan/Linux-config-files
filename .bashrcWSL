@@ -95,6 +95,7 @@ alias l='ls -CF'
 
 #MY ALIASES______________________________________________
 alias explorer='explorer.exe .'
+alias notepad='notepad.exe'
 alias fit='cd /mnt/c/FIT'
 alias doc='cd /mnt/c/Users/babak/OneDrive/Dokumenty'
 alias dow='cd /mnt/c/Users/babak/Downloads'
