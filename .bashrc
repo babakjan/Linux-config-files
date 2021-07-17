@@ -100,20 +100,29 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-#MY ALIASES______________________________________________
-alias xamp='cd /opt/lampp; sudo ./manager-linux-x64.run'
-alias htdocs='cd /opt/lampp/htdocs'
-alias fit='cd ~/FIT'
-alias doc='cd ~/Documents'
+#MY ALIASES_____________________
+_________________________
+alias shared='cd /media/babakjan/SHARED' #shared folder between linux and windows
+alias sha='cd /media/babakjan/SHARED'
+alias fit='cd /media/babakjan/SHARED/FIT'
+alias doc='cd /media/babakjan/SHARED/Documents'
 alias dow='cd ~/Downloads'
 alias freq='cpufreq-info'
-alias pa2='cd ~/FIT/2.semestr/PA2'
-alias pa1='cd ~/FIT/1.semestr/PA1'
-alias ps1='cd ~/FIT/1.semestr/PS1'
-alias biphp='cd ~/FIT/3.semestr/PHP'
-alias tjv='cd ~/FIT/3.semestr/TJV'
-alias aag='cd ~/FIT/3.semestr/AAG'
-alias ag1='cd ~/FIT/3.semestr/AG1'
+alias pa1='cd /media/babakjan/SHARED/FIT/1.semestr/PA1'
+alias ps1='cd /media/babakjan/SHARED/FIT/1.semestr/PS1'
+alias pa2='cd /media/babakjan/SHARED/FIT/2.semestr/PA2'
+alias biphp='cd /media/babakjan/SHARED/FIT/3.semestr/PHP'
+alias tjv='cd /media/babakjan/SHARED/FIT/3.semestr/TJV'
+alias aag='cd /media/babakjan/SHARED/FIT/3.semestr/AAG'
+alias ag1='cd /media/babakjan/SHARED/FIT/3.semestr/AG1'
+alias vwm='cd /media/babakjan/SHARED/FIT/4.semestr/VWM'
+alias bigit='cd /media/babakjan/SHARED/FIT/4.semestr/GIT'
+alias pjs='cd /media/babakjan/SHARED/FIT/4.semestr/PJS'
+alias osy='cd /media/babakjan/SHARED/FIT/4.semestr/OSY'
+alias psi='cd /media/babakjan/SHARED/FIT/4.semestr/PSI'
+alias zwu='cd /media/babakjan/SHARED/FIT/4.semestr/ZWU'
+alias bez='cd /media/babakjan/SHARED/FIT/4.semestr/BEZ'
+alias xml='cd /media/babakjan/SHARED/FIT/4.semestr/XML'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -147,4 +156,3 @@ export PATH
 
 #solution to vim recognise ctrl w
 stty start undef stop undef
-
