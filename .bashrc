@@ -122,6 +122,14 @@ alias psi='cd /mnt/SHARED/FIT/4.semestr/PSI'
 alias zwu='cd /mnt/SHARED/FIT/4.semestr/ZWU'
 alias bez='cd /mnt/SHARED/FIT/4.semestr/BEZ'
 alias xml='cd /mnt/SHARED/FIT/4.semestr/XML'
+alias big='cd /mnt/SHARED/FIT/5.semestr/BIG'
+alias bpr='cd /mnt/SHARED/FIT/5.semestr/BPR'
+alias emp='cd /mnt/SHARED/FIT/5.semestr/EMP'
+alias prr='cd /mnt/SHARED/FIT/5.semestr/PRR'
+alias pst='cd /mnt/SHARED/FIT/5.semestr/PST'
+alias si1='cd /mnt/SHARED/FIT/5.semestr/SI1'
+alias twa='cd /mnt/SHARED/FIT/5.semestr/TWA'
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
