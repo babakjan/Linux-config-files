@@ -1,0 +1,13 @@
+[user]
+	name = janbabak
+	email = janbabak@fit.cvut.cz
+[alias]
+	cm = commit
+	co = checkout
+	lg = log --oneline --graph
+	lo = log
+	d = diff
+	dc = diff --cached
+	st = status
+	pushf = push --force-with-lease
+	cb = branch --show-current

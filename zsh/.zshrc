@@ -16,7 +16,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
-# ZSH_THEME="robbyrussell" # default zsh theme
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -25,7 +24,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
@@ -108,23 +107,20 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-#---------------------------------------------------------------------------
-# custom settings
-#---------------------------------------------------------------------------
-
-export LESS=eFRX # thanks to this less output will stay in terminal after quittng less (bat, git log, git diff, ...)
-
 #---------------------------------------------------------------------------
 # aliases
 #---------------------------------------------------------------------------
 
-alias dev="cd /Users/babakjan/Developer" # move to Developer
-alias dow="cd /Users/babakjan/Downloads" # move to Downloads
-alias des="cd /Users/babakjan/Desktop" # move to Desktop
-alias doc="cd /Users/babakjan/Documents" # move to Documents
-alias fit="cd '/Users/babakjan/Library/Mobile Documents/com~apple~CloudDocs/FIT'" # move to FIT
-alias sem7="cd '/Users/babakjan/Library/Mobile Documents/com~apple~CloudDocs/FIT/[07] semestr'" # move to 7th semester
-alias cryptify="cd /Users/babakjan/Developer/swift/Cryptify" # move to Cryptify project
+alias dev="cd /Users/janbabak/Developer" # move to Developer
+alias dow="cd /Users/janbabak/Downloads" # move to Downloads
+alias des="cd /Users/janbabak/Desktop" # move to Desktop
+alias noql="cd /Users/janbabak/Developer/NoQL" # move to NoQL project
+alias doc="cd /Users/janbabak/Documents" # move to Documents
+alias fit="cd '/Users/janbabak/Library/Mobile Documents/com~apple~CloudDocs/FIT'" # move to FIT folder
+alias noql="cd /Users/janbabak/Developer/NoQL" # move to NoQL project
+alias zprofile="vim ~/.zprofile" # open .zprofile file
+alias zshrc="vim ~/.zshrc" # open .zshrc file
+alias zsource="source ~/.zshrc && source ~/.zprofile" # reload .zshrc and .zprofile files
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
